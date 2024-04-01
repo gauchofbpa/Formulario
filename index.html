@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários no HTML</title>
+</head>
+<body class="body">
+    <header class="header">
+        <h2>HTML para explicar formulários e suas especificações.</h2>
+        <h3>Por: João Constantino Caetano</h3>
+    </header>
+    <hr class="hr">
+    <div>
+        <div class="containertext">
+            <p class="text">Os formulários servem para <span class="destaque">coletar algum dado</span> do usuário. </p>
+        </div>
+        <div class="containertext">
+            <p>O elemento form, é um elemento de <span class="destaque">container</span> cuja função é <span class="destaque">configurar a forma como o formulário se comporta</span>, podendo conter vários elementos específicos para isso, como input, label, select, button e etc. </p>
+        </div>
+    </div>
+    <hr class="hr">
+    <div>
+        <form class="form">
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome"><br>
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input type="text" name="sobrenome">
+        </form>
+        <div class="containertext">
+            <p>O <span class="destaque">input type="text"</span> define um campo para aceitar texto.</p>
+        </div>
+        <div class="containertext">
+            <p>A tag "label" serve como um <span class="destaque">"rótulo" do input</span>, identificando ao usuário o que é o respectivo campo. </p>
+        </div>
+    </div>
+    <hr class="hr">
+    <div>
+        <form class="form">
+            <label for="usuario">Usuário:</label><br>
+            <input type="text" name="usuario"><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" name="senha"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <div class="containertext">
+            <p>O <span class="destaque">input type="password"</span> serve para ocultar os caracteres no campo.</p>
+        </div>
+        <div class="containertext">
+            <p>O <span class="destaque">input type="submit"</span> quando clicado, envia os dados para serem processados.</p>
+            <p>OBS: Para isso acontecer, é necessário estar configurado com o action e method.</p>
+        </div>
+    </div>
+    <hr class="hr">
+    <div>
+        <div class="containertext">
+            <p>O <span class="destaque">form action="url"</span> define o local em que os dados vão ser enviados.</p>
+        </div>
+        <div class="containertext">
+            <p>O <span class="destaque">method="post/get"</span> define qual o método HTTP vai ser usado para os dados.</p>
+            <p>O <span class="destaque">post</span> vai basicamente enviar os dados, e o <span class="destaque">get</span> vai pegar.</p>
+        </div>
+    </div>
+    <hr class="hr">
+    <div>
+        <form class="form">
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email"><br><br>
+            <input type="reset" value="Resetar">
+        </form>
+        <div class="containertext">
+            <p>O <span class="destaque">input type="email"</span> é um campo dedicado para e-mail, e em alguns navegadores, aparece os seus e-mails para enviar.</p>
+        </div>
+        <div class="containertext">
+            <p>O <span class="destaque">input type="reset"</span> faz com que todos os campos do form se apaguem.</p>
+        </div>
+    </div>
+    <hr class="hr">
+    <div>
+        <form class="form">
+            <input type="checkbox" name="time1" value="Grêmio">
+            <label for="time1">Eu torço para o Grêmio</label><br>
+            <input type="checkbox" name="time2" value="Flamengo">
+            <label for="time2">Eu torço para o Flamengo</label><br>
+            <input type="checkbox" name="time3" value="Palmeiras">
+            <label for="time3">Eu torço para o Palmeiras</label><br>
+        </form>
+        <div class="containertext">
+            <p>O <span class="destaque">input type="checkbox"</span> deixa você marcar várias opções.</p>
+        </div>
+    </div>
+    <hr class="hr">
+    <div>
+        <form class="form">
+            <input type="radio" name="cor" value="Rosa">
+            <label for="rosa">Rosa</label><br>
+            <input type="radio" name="cor" value="Vermelho">
+            <label for="vermelho">Vermelho</label><br>
+            <input type="radio" name="cor" value="Azul">
+            <label for="azul">Azul</label><br>
+        </form>
+        <div class="containertext">
+            <p>O <span class="destaque">input type="radio"</span> deixa você marcar somente uma opção.</p>
+        </div>
+    </div>
+    <hr class="hr">
+</body>
+</html>

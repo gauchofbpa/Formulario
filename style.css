@@ -1,0 +1,35 @@
+.body {
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(198, 245, 243);
+}
+.containertext {
+    background-color: aquamarine;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+.form {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.destaque {
+    color: red;
+}
+.containerdiv {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.hr {
+    border: 1px solid black;
+}
+.header {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
